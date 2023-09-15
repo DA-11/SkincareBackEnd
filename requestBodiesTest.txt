@@ -1,0 +1,42 @@
+Create product req body 
+
+{
+    "name":"Apple MacBook Air",
+    "category":"Electronics",
+    "description":"Apple Macbook Air with M2 Chip is a laptop with 16inch screen..",
+    "price":100000,
+    "quantity":10,
+    "imageUrl":"https://something.com",
+    "rating":4
+}
+
+Admin login
+
+{
+    "email":"admin_macnam@geeta.com",
+    "password":"BHzX%vjwd7*"
+}
+
+user login 
+
+{
+    "email":"test@gmail.com",
+    "password":"password1"
+}
+
+order request 
+
+{
+    "customerEmail":"test@gmail.com",
+    "products":[
+        {
+            "product":"Apple MacBook Air",
+            "quantity":1
+        },
+        {
+            "product":"Redmi Earbuds 2",
+            "quantity":1
+        }
+    ],
+    "price":103000
+}
